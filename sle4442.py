@@ -131,7 +131,7 @@ if __name__ == "__main__":
         elif command == 'disconnect':
             disconnect()
             break
-        elif command == 'exit':
+        elif (command == 'exit') or (command == 'q'):
             break
         else:
             print("Unknown command.")
